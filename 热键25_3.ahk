@@ -12,17 +12,17 @@
 ; 以下热键在任何情况下都会生效
 #HotIf
 
-; 使用 Insert 增加音量
+; 使用 f3 增加音量
 F3::{
     Send "{Volume_Up}"  ; 模拟按下音量加键
 }
 
-; 使用 Home 降低音量
+; 使用 f2 降低音量
 F2::{
     Send "{Volume_Down}"  ; 模拟按下音量减键
 }
 
-; 使用 End 切换静音
+; 使用 f1 切换静音
 F1::{
     Send "{Volume_Mute}"  ; 模拟按下静音键
 } 
